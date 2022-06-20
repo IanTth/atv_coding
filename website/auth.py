@@ -16,4 +16,5 @@ def logout():
 def sign_up():
     return render_template('sign_up.html')
 
+
 # vou dar uma lida melhodor de como utilizar o blueprint (ferramenta do flask para mecanismo de login) #
