@@ -41,8 +41,8 @@ def Log():
           
       else:
         print("####################################################\nACESSO NEGADO\n Senha ou CPF invalido.\n####################################################\n\n")
-        ação = int(input('Digite o número da ação:\n 1 - Fazer Login \n 2 - Cadastrar \n 3 - Sair\n'))
-      return False
+        
+      continue
 
       
 

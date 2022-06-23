@@ -1,6 +1,6 @@
-from classes import Publicação
+
 from log import Log
-from pub import Pub, Npub
+from pub import Pub
 
 
 
@@ -11,7 +11,7 @@ def Main():
     while (escolha != 100):
         
         if(escolha == 1):
-            return Pub()
+            return Pub(0)
             
         elif(escolha == 2):
             return Log()
